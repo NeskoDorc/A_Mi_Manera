@@ -1,0 +1,920 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+
+
+}
+
+body{
+  overflow-x: hidden;
+    /* border: 5px solid #999; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    line-height: 1.7;
+    color: #777777;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    /* padding: 30px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* position: relative; */
+    /* box-shadow: 5px 10px; */
+}
+.header{
+  position: relative;
+
+    height: 80vh;
+    background-image: url(./img/martin.jpg);
+
+background-size: cover;
+background-position: bottom;
+
+}
+
+.header__partneri{
+
+    height: 65vh;
+    background-image: url(./img/partneri.jpg);
+
+background-size: cover;
+background-position: center;
+
+}
+.header__usluge{
+
+    height: 65vh;
+    background-image: url(./img/usluge.jpg);
+
+background-size: cover;
+background-position: center;
+
+}
+
+.header__kontakt{
+
+  height: 65vh;
+  background-image: url(./img/kontakt.jpg);
+
+background-size: cover;
+background-position: top;
+
+}
+.new1 {
+    border-top: 3px solid #C9A482;
+
+width: 10%;
+padding-bottom: 3vh;
+
+}
+.linija{
+    width: 100px;
+
+  
+    
+    /* Vector */
+
+
+    
+
+}
+.map{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+width: 70%;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+}
+
+
+
+
+
+.map h2{
+  /* KONTAKTIRAJTE NAS */
+
+
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 5vh;
+line-height: 54px;
+
+color: #C9A482;
+
+
+}.map p{
+  /* KONTAKTIRAJTE NAS */
+
+
+/* office@amimanera.rs www.amimanera.rs */
+
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+padding-bottom: 3vh;
+
+
+
+}
+
+.social{
+  display: flex;
+flex-direction: row;
+justify-content:space-between;
+
+}
+
+#map {
+  
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+
+
+.logo-box{
+
+/* position: absolute;
+top: 80px;
+left: 60px; */
+
+
+}
+.logo{
+    width: 100%;
+    height: auto;
+
+}
+/* Navbar */
+
+.navbar{
+    position:sticky;
+    
+    z-index:10;
+    
+    
+
+
+}
+
+
+
+.navbar-brand {
+    margin-left: 4em;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.09em;
+  }
+  
+  /*.navbar-nav {
+    margin-right: 4em;
+  }*/
+  
+  .navbar-primary {
+    justify-content: flex-end;
+    margin: auto 4rem;
+  }
+  
+  .navbar-primary .nav-item {
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    font-family: Montserrat;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  /* KONTAKTIRAJTE NAS */
+
+
+
+  
+  .custom-toggler.navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    color: black;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  /*.nav-item:after {
+    content: "/";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid black;
+    transition: 0.4s;
+  }*/
+  
+  .navbar-primary .nav-item:after {
+    content: "/";
+    position: absolute;
+    top: 0.25rem;
+    left: auto;
+    right: -0.5rem;
+  }
+  
+  .navbar-primary .nav-item:last-child:after {
+    content: none;
+  }
+  
+  .navbar-primary .nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    width: 0%;
+    border-bottom: 1px solid black;
+    transition: 0.4s;
+  }
+  
+  .navbar-primary .nav-link:hover:before {
+    width: calc(100% - 1rem);
+  }
+  
+  .nav-social-icon {
+    font-size: 16px;
+  }
+
+  .partneri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 6vh;
+
+  }
+
+
+  .o__nama{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+      text-align: center;
+
+  }.naslov{
+    
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+
+  }
+
+  .naslov h2{
+    text-align: center;
+    font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 5vh;
+line-height: 54px;
+align-items: center;
+color: #C9A482;
+
+}
+
+.ime{
+  text-align: center;
+  font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 7vh;
+line-height: 54px;
+align-items: center;
+color: #C9A482;
+
+}
+.tekst p{
+
+/* A mi manera je kompanija koja je posvećena doslednom širenju i , kako bi povezala različite poslovne entitete u stabilne projekte - javne i privatne, stručnjake i investitore, razvojne finansijske institucije, nevladine organizacije... Naš tim čine eksperti koji poznaju tržište, regulatorne okvire poslovanja banaka i finansijskih institucija. Naš tim poseduje znanje i iskustvo u stvaranju i implementaciji rešenja koja podrazumevaju napredne procedure i tehnologije, big data, a u svrhu poboljšanja prodaje, boljeg upravljanja rizicima, kreiranja personalizovanog razvoja i marketinga klijenata. */
+
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+
+align-items: center;
+text-align: left;
+
+color: #000000;
+
+
+
+
+}
+.tekst ul {
+  list-style: none; /* Remove default bullets */
+}
+.tekst ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-size:30px;
+  color: #C9A482; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  vertical-align:middle;
+   
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+
+
+.polje__ekspertize{
+    height: 30vh;
+    width: 100%;
+    
+    background-image: url(img/druga.jpg);
+    /* 75bf1eda6850308f78e525ae726b80b9 1 */
+
+    background-size: cover;
+
+background-position: center;
+/* background-repeat: no-repeat */
+    
+}
+
+
+.divider__1{
+    height: 25vh;
+    width: 100%;
+    background-image: url(img/druga.jpg);
+    
+
+/* 75bf1eda6850308f78e525ae726b80b9 1 */
+
+
+
+
+/* transform: rotate(90deg); */
+
+}
+
+.o__nama2{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    
+    
+}
+
+.polje__ekspertize2 h2{
+    text-align: center;
+    font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 5vh;
+line-height: 54px;
+align-items: center;
+color: #C9A482;
+text-align: left;
+padding-bottom: 3vh;
+
+
+}
+.polje__ekspertize2 p{
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    align-items: center;
+    text-align: left;
+    
+    color: #000000;
+
+
+
+
+}.polje__ekspertize2{
+
+    
+    margin-right: 20px;
+    
+
+  
+    
+}
+.slika2{
+    height: 45vh;
+    width: 100%;
+    
+    background-image: url(img/luca.jpg);
+    background-size: cover;
+
+background-position: center;
+      
+
+
+
+}.polje__ekspertize3 h2{
+    text-align: center;
+    font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+line-height: 54px;
+font-size: 5vh;
+align-items: center;
+color: #C9A482;
+text-align: right;
+padding-bottom: 3vh;
+    
+}
+.polje__ekspertize3 p{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    
+    align-items: center;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.polje__ekspertize3{
+    
+}
+
+
+
+.slika3{
+    height: 45vh;
+    width: 100%;
+    
+    background-image: url(img/pen.jpg);
+    background-size: cover;
+
+background-position: center;
+      
+
+
+
+}
+
+
+
+
+
+.polje__ekspertize__druga{
+    height: 30vh;
+    width: 100%;
+    
+    background-image: url(img/martin.jpg);
+    /* 75bf1eda6850308f78e525ae726b80b9 1 */
+
+    background-size: cover;
+    text-align:center;
+    display: flex;
+    align-items: center; /* align vertical */
+    text-align: center;
+background-position: center;
+/* background-repeat: no-repeat */
+    
+}
+
+.polje__ekspertize__druga h2{
+/* KONTAKTIRAJTE NAS */
+
+
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 54px;
+
+
+color: #C9A482;
+
+
+  
+}
+.heading-primary{
+text-transform: uppercase;
+
+}
+.quote-slider {
+  width: 100%;
+  height: 400px;
+  
+  list-style: none;
+  display: block;
+  position: relative;
+}
+
+/* Vaša vizija. Naša stručnost. Strategija orijentisana na rezultate, prilagođena vašim potrebama. */
+
+
+
+
+
+
+.quote-slider li {
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
+  right: -60%;
+  width: 60%;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 3vh;
+line-height: 3.2vh;
+  color: #000000;
+ 
+  
+  text-align: center;
+  z-index: 5;
+}
+.quote-slider li .site {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  margin-top: 40px;
+  font-size: 36px;
+}
+.quote-slider .arrow {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  height: 100%;
+  line-height: 400px;
+  padding-left: 40px;
+}
+.quote-slider .arrow.right {
+  right: 0;
+}
+.quote-slider .arrow.left {
+  left: 0;
+}
+
+.heading-primary-main{
+/* Vaša vizija. Naša stručnost. Strategija orijentisana na rezultate, prilagođena vašim potrebama. */
+
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 3vh;
+line-height: 3.2vh;
+text-align: center;
+
+
+color: #000000;
+
+
+
+  display: block;
+
+  
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+
+}
+
+
+
+.text-box{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+
+
+}
+
+
+
+.footer{
+    background-color: black;
+}
+
+.flex-grid {
+    display: flex;
+    
+  }
+  .col1 img{
+
+    width: 40%;
+    height: auto;
+
+  }
+
+
+  .col1 {
+      
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+
+      margin: auto;
+      justify-content: center;
+    flex: 1;
+    
+   
+  }
+  .col {
+      
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vh;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+    color: #FFFFFF;
+    
+
+      margin: auto;
+      justify-content: center;
+    flex: 1;
+    /* height: 250px; */
+   
+  }
+  .col ul{
+      padding-top: 2vh;
+    list-style: none;
+    display: block;
+    float: left;
+
+
+
+  } .col li{
+    padding-bottom: 2vh;
+
+  }
+  .col a {
+    
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .col a:hover {
+    background-color: #555;
+  }
+  
+  .col a:active {
+    background-color: black;
+  }
+  
+  .col a:visited {
+    background-color: #555;
+    
+  }
+
+.separator{
+    background-color: #C9A482;
+    height: 12px;
+}
+/* Rectangle 5 */
+.footer2{
+
+    background-color: #1E252B;
+/* Rectangle 7 */
+   
+    text-align: center;
+
+    height: 35px;
+}
+
+
+
+
+
+
+/* Vector */
+
+
+
+/* NAVIGATION POČETNA STRANA O NAMA USLUGE PARTNERI KONTAKTIRAJTE NAS */
+
+
+
+.item-1,
+.item-2,
+.item-3 {
+ 
+ 
+
+  display: block;
+
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.item-1 {
+  animation-name: anim-1;
+}
+
+.item-2 {
+  animation-name: anim-2;
+}
+
+.item-3 {
+  animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%,
+  8.3% {
+    transform: translateX(-60%);
+    
+    opacity: 0;
+  }
+  8.3%,
+  25% {
+    transform: translateX(0);
+    
+    opacity: 1;
+  }
+  33.33%,
+  100% {
+    transform: translateX(50%);
+    
+    opacity: 0;
+  }
+}
+
+@keyframes anim-2 {
+  0%,
+  33.33% {
+    transform: translateX(-60%);
+    opacity: 0;
+  }
+  41.63%,
+  58.29% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  66.66%,
+  100% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+@keyframes anim-3 {
+  0%,
+  66.66% {
+    left: -100%;
+    opacity: 0;
+  }
+  74.96%,
+  91.62% {
+    left: 25%;
+    opacity: 1;
+  }
+  100% {
+    left: 110%;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    
+    body{
+
+        padding: 0px !important;
+    }
+    .header{
+      
+    
+        height: 50vh;
+   
+    
+    }
+
+    .footer2 {font-size: 3vh;}
+
+    li {font-size: 2vh;}
+    .o__nama {padding-top: 7vh;
+      padding-bottom: 5vh;
+    
+   }
+    .o__nama2 {padding-top: 7vh;
+    padding-bottom: 5vh;}
+
+
+    .quote-slider li {
+      display: inline-block;
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      right: -60%;
+      width: 60%;
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+    line-height: 3.2vh;
+      color: #000000;
+     
+      
+      text-align: center;
+      z-index: 5;
+    }
+    
+    .tekst p {
+      font-size: 2vh;
+    }
+    .polje__ekspertize2 p {font-size: 2vh;
+      padding-bottom: 3vh;
+    
+    }
+    .col a{
+      font-size: 1.7vh;
+    }
+
+    .polje__ekspertize3 p{
+      font-size: 2vh;
+    }
+    .naslov h2 {font-size: 5vh;}
+
+    .col1 img{display: none;}
+
+    .flex-grid {flex-direction: column;
+        flex-direction: column;}
+
+        .logo{
+           display: none;
+        
+        }
+
+
+    .o__nama2 {
+      flex-direction: column;
+    }
+  }
